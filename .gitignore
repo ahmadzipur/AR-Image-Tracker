@@ -1,0 +1,53 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+Assets/SamplesResources
+
+# Avoid pushing APKs and Builds
+*.apk
+*.aab
+Build/
+Builds/
+
+# User-specific files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity Asset Store tools
+Assets/AssetStoreTools*
+
+# Ignore Vuforia packages & samples to avoid huge files
+Packages/com.ptc.vuforia.engine-*.tgz
+Assets/SamplesResources/
+Assets/Vuforia/
+
+# Ignore FBX or models larger than typical size
+# (optional, kalau kamu mau)
+Assets/**/*.FBX
+Assets/**/*.fbx
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Git large file caches
+*.zip
+*.tar.gz
+*.rar
